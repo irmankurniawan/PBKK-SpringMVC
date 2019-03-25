@@ -16,6 +16,9 @@
 
 	<!-- Step 4: Add support for conversion, formatting and validation support -->
 	<mvc:annotation-driven/>
+	
+	<!-- Mapping Resource, lokasi buat sewaktu-waktu ganti tema -->
+	<mvc:resources location="/resources/theme1/" mapping="/resources/**"></mvc:resources>
 
 	<!-- Step 5: Define Spring MVC view resolver -->
 	<bean
