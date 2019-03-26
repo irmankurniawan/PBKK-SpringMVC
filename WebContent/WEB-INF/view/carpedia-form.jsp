@@ -11,14 +11,16 @@
 	<script src="<c:url value="/resources/js/jquery.min.js"/>"></script>
 	<script src="<c:url value="/resources/js/bootstrap.min.js"/>"></script>
 	<link rel="stylesheet" href=" <c:url value="/resources/css/bootstrap.min.css"/> "/>
-	<title>Carpedia - Home</title>
+	<title>Carpedia - Form</title>
 </head>
 
 <body>
-	<div class="container">
+<div class="container">
+	<div class="jumbotron">
 		<h1>Welcome, Enter The Car Details</h1>
-		<p>Input</p>
-
+	</div>
+</div>
+	<div class="container">
 		<form:form method="POST" action="addCar" modelAttribute="car" >
 			<div class="form-group">
 	            <form:label path="name">Name</form:label>

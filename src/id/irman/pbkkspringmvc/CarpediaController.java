@@ -14,9 +14,12 @@ import id.irman.pbkkspringmvc.Car;
 public class CarpediaController {
 
 	@RequestMapping("/")
-	public String showMyPage() {
-		return "home";
+	public ModelAndView showMyForm() {
+		return new ModelAndView("home", "car", new Car());
 	}
+//	public String showMyPage() {
+//		return "home";
+//	}
 	
 	@RequestMapping(value="showForm", method=RequestMethod.GET)
 	public ModelAndView showForm() {
