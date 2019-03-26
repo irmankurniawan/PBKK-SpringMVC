@@ -12,17 +12,30 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	<title>Carpedia - Home</title>
+	<style>
+		.section {
+			height: 100%;  
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+	</style>
 </head>
 
 <body>
+	<div class="jumbotron text-center" style="height: 100vh;margin-bottom: 0;">
+		<div class="section">
+			<h1>Welcome!</h1>
+			<p>Aplikasi Input Data Mobil Carpedia</p>
+			<!-- Button to Open the Modal --><br/>
+			<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+				Input Disini
+			</button>
+		</div>
+	</div>
+	
 	<div class="container">
-		<h3>Welcome!</h3>
-		
-		<!-- Button to Open the Modal -->
-		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-			Input Here
-		</button>
-		
 		<!-- The Modal -->
 		<div class="modal fade" id="myModal">
 		  <div class="modal-dialog">
