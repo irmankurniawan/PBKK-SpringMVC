@@ -15,8 +15,12 @@ Inputan aplikasi terdiri dari:
 
 ## Screenshot
 
-![Screenshot01](/img/screenshot01.png)
-![Screenshot02](/img/screenshot02.png)
+`Screenshot 1 - Halaman Utama`
+![Screenshot01](/img/screenshot01.PNG)
+`Screenshot 2 - Form`
+![Screenshot02](/img/screenshot02.PNG)
+`Screenshot 3 - Hasil Inputan`
+![Screenshot03](/img/screenshot03.PNG)
 
 ```
 Irman Kurniawan
